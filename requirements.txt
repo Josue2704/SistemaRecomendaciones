@@ -1,0 +1,10 @@
+fastapi==0.95.2
+uvicorn==0.22.0
+sqlalchemy==1.4.47
+pydantic==2.2.1
+tensorflow==2.14.0
+numpy==1.23.5
+python-decouple==3.8  # Para manejar variables de entorno
+pymysql==1.0.3  # Driver MySQL para SQLAlchemy
+psycopg2-binary==2.9.6  # Opcional: Si usas PostgreSQL
+python-dotenv==1.0.0  # Para manejar configuraciones en `.env`
